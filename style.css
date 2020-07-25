@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #320d3e;
+}
+
+.styling{
+    font-weight: 800;
+    color: #fe3a9e;
+    font-family: 'Red Rose', cursive;
+}
+
+.addButton:hover{
+    opacity: 0.7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid wheat;
+    list-style: none;
+    font-family: 'Red Rose', cursive;
+    color: #efefef;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Hind' sans-serif;
+    background: none;
+    outline: none;
+    color:  #e2d810;
+    border: none;
+    cursor: pointer;
+}
+
+.removeButton{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Hind' sans-serif;
+    background: none;
+    outline: none;
+    color: red;
+    border: none;
+	cursor: pointer;
+	margin-left: 50px;
+}
+
+.editButton:hover{
+    opacity: 0.7;
+}
+
+.removeButton:hover{
+    opacity: 0.7;
+}
+
+
+.fas{
+    transition: all 3s linear;
+    transition-delay: inherit;
+    transition-duration: 4ms;
+}
+
+.fas:hover{
+    transform: scale(1.4);
+    transform-style: preserve-3d;
+    transform-origin: 0mm;
+}
+
+.input_div .input{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 35px;
+}
+
+    .input_div{
+        display: flex;
+        text-align: center;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .deleteButton{
+        margin-left: 30px;
+        font-size: 35px;
+        font-family: 'Hind' sans-serif;
+        background: none;
+        outline: none;
+        color: red;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .addButton{
+        margin-left: 20px;
+        height: 50px;
+        width: 50px;
+        border: none;
+        border-radius: 25px;
+        outline: none;
+        background-color: #fff;
+        color: #fff;
+        background-color: #e2d810;
+        cursor: pointer;
+    }
+
+    h1{
+        padding-top: 20px;
+        font-size: 60px;
+        font-weight: bold;
+        margin: 0 auto;
+        text-align: center;
+        color: #e2d810;
+    }
+
+ @media only screen and (max-width: 500px) and (min-width: 340px){
+
+    h1{
+        padding-top: 15px;
+        font-size: 40px;
+    }
+    .addButton{
+        margin-left: 8px;
+        height: 25px;
+        width: 25px;
+    }
+
+  .input_div .input{
+    width: 250px;
+    font-size: 1rem;
+    height: 32px;
+  }
+
+  .input_div{
+      margin-top: 16px;
+  }
+
+  .deleteButton{
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+    .container{
+        margin-top: 1rem;
+    }
+
+    .editButton{
+        font-size: 1.2rem;
+    }
+    .removeButton{
+        font-size: 1.2rem;
+    }
+    .item{
+        padding: 0.5rem;
+        margin-bottom: 1.3rem;
+        border-bottom: 1px solid wheat;
+        font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) and (min-width: 501px){
+
+    h1{
+        padding-top: 18px;
+        font-size: 55px;
+    }
+    .addButton{
+        margin-left: 12px;
+        height: 35px;
+        width: 35px;
+    }
+
+  .input_div .input{
+    width: 300px;
+    height: 40px;
+  }
+
+  .input_div{
+      margin-top: 18px;
+  }
+
+  .deleteButton{
+    margin-left: 15px;
+    font-size: 25px;
+  }
+
+    .container{
+        margin-top: 1.5rem;
+    }
+
+    .editButton{
+        font-size: 1.3rem;
+    }
+    .removeButton{
+        font-size: 1.4rem;
+    }
+    .item{
+        padding: 0.8rem;
+        margin-bottom: 1.3rem;
+        border-bottom: 1px solid wheat;
+        font-size: 16px;
+    }
+  }
+
+  .footer{
+    color: red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding-top: 18px;
+    height: 60px;
+  }
+  
+  .auther{
+    text-decoration: none;
+    color:  #4203c9;
+  }
+  
+  div p{
+    font-size: 20px;
+    font-family: 'Red Rose', cursive;
+    text-align: center;
+  }
+  
+  .auther:hover{
+    color: red;
+    text-decoration: none;
+  }
