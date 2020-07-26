@@ -2,11 +2,10 @@ var list = document.getElementById('list');
 
 function addTodo(){
     var todoItem = document.getElementById('todo_item');
-
-    var li = document.createElement('li');
     var liText = document.createTextNode(todoItem.value);
-    li.setAttribute("class","item");
+    var li = document.createElement('li');
     li.appendChild(liText);
+    li.setAttribute("class", "item");   
 
     var delBtn = document.createElement('button');
     var delText = document.createTextNode('Delete');
@@ -22,7 +21,10 @@ function addTodo(){
     editBtn.appendChild(editText);
     li.appendChild(editBtn);
 
-    list.appendChild(li);
+    if (todoItem.value != '') {
+        list.appendChild(li);
+    }
+
     todoItem.value = "";
 }
 
